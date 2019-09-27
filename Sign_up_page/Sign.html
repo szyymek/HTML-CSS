@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <title>Sign up page</title>
+    </head>
+    <body>
 
+        <h1>Sign up page</h1>
+        <p>Please fill all required fields</p>
+        
+        <form action="thankyou.html" method="get">
+            <label for="fn">First name: </label>
+            <input id="fn" type="text" name="" placeholder="First name" required>
+            
+            <label for="ln">Last name: </label>
+            <input id="ln" type="text" name="" placeholder="Last name" required>
+            
+            <p></p>
+            
+            <label for="mail">Email: </label>
+            <input id="mail" type="email" name="" placeholder="Email" required>
+            
+            <label for="pass">Password: </label>
+            <input id="pass" type="password" name="" placeholder="Password" required>
+            
+            <p>Are you over 18?</p>
+            
+            <label for="y">Yes: </label>
+            <input id="y" type="radio" name="over" value="yes">
+            
+            <label for="y">No: </label>
+            <input id="n" type="radio" name="under" value="no">
+            
+            <p>Do you have a credit card or PayPal?</p>
+            <select name="payment">
+                <option value="cc">Credit card</option>
+                <option value="pp">PayPal</option>
+            </select>
+            
+            <p></p>
+            
+            <input type="submit" name="" value="Sign up!">
+        </form>
+
+    </body>
+</html>
